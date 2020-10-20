@@ -9,7 +9,7 @@ libphonenumbers – Google's common JavaScript library for parsing, formatting, 
 libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>TypeScript</strong>.
 
 * PhoneNumberUtil
-  * format(number, numberFormat)
+  * [format(number, numberFormat)](#formatnumber-numberformat)
   * formatInOriginalFormat(number, regionCallingFrom)
   * formatOutOfCountryCallingNumber(number, regionCallingFrom)
   * getNumberType(number)
