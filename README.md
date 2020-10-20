@@ -100,9 +100,9 @@ const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 
 const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
 
-// Format number in the E164 format
-console.log(phoneUtil.format(number, PNF.E164));
-// => +13005778989
+// Format number in the RFC3966 format
+console.log(phoneUtil.format(number, PNF.RFC3966));
+// => tel:+1-300-577-8989
 
 // Format number in the national format
 console.log(phoneUtil.format(number, PNF.NATIONAL));
@@ -125,9 +125,9 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
 const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
 
-// Format number in the E164 format
-console.log(phoneUtil.format(number, PNF.E164));
-// => +13005778989
+// Format number in the RFC3966 format
+console.log(phoneUtil.format(number, PNF.RFC3966));
+// => tel:+1-300-577-8989
 
 // Format number in the national format
 console.log(phoneUtil.format(number, PNF.NATIONAL));
