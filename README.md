@@ -28,18 +28,18 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * isValidShortNumberForRegion(number, regionDialingFrom)
 
 * PhoneNumberType
-  * PhoneNumberType.FIXED_LINE
-  * PhoneNumberType.MOBILE
-  * PhoneNumberType.FIXED_LINE_OR_MOBILE
-  * PhoneNumberType.TOLL_FREE
-  * PhoneNumberType.PREMIUM_RATE
-  * PhoneNumberType.SHARED_COST
-  * PhoneNumberType.VOIP
-  * PhoneNumberType.PERSONAL_NUMBER
-  * PhoneNumberType.PAGER
-  * PhoneNumberType.UAN
-  * PhoneNumberType.VOICEMAIL
-  * PhoneNumberType.UNKNOWN
+  * FIXED_LINE
+  * MOBILE
+  * SHARED_COST
+  * FIXED_LINE_OR_MOBILE
+  * TOLL_FREE
+  * PREMIUM_RATE
+  * PAGER
+  * VOIP
+  * PERSONAL_NUMBER
+  * VOICEMAIL
+  * UAN
+  * UNKNOWN
 
 * PhoneNumberFormat
   * PhoneNumberFormat.E164
@@ -48,11 +48,11 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * PhoneNumberFormat.RFC3966
 
 * CountryCodeSource
-  * CountryCodeSource.UNSPECIFIED
-  * CountryCodeSource.FROM_NUMBER_WITH_IDD
-  * CountryCodeSource.FROM_NUMBER_WITHOUT_PLUS_SIGN
-  * CountryCodeSource.FROM_NUMBER_WITH_PLUS_SIGN
-  * CountryCodeSource.FROM_DEFAULT_COUNTRY
+  * UNSPECIFIED
+  * FROM_NUMBER_WITH_IDD
+  * FROM_NUMBER_WITHOUT_PLUS_SIGN
+  * FROM_NUMBER_WITH_PLUS_SIGN
+  * FROM_DEFAULT_COUNTRY
 
 * PhoneNumber
   * getCountryCode()
