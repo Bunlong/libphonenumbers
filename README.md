@@ -4,6 +4,8 @@ libphonenumbers – Google's common JavaScript library for parsing, formatting, 
 
 > libphonenumbers is JS port of [Google's libphonenumber](https://github.com/google/libphonenumber/tree/master/javascript).
 
+[![NPM](https://img.shields.io/npm/v/libphonenumbers.svg)](https://www.npmjs.com/package/libphonenumbers)
+
 ## 🎁 Features
 
 libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>TypeScript</strong>.
