@@ -20,6 +20,48 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * parseAndKeepRawInput(numberToParse, defaultRegion)
   * parse(numberToParse, defaultRegion)
 
+* ShortNumberInfo
+  * connectsToEmergencyNumber(number, regionCode)
+  * isPossibleShortNumberForRegion(number, regionDialingFrom)
+  * isValidShortNumber(number)
+  * isPossibleShortNumber(number)
+  * isValidShortNumberForRegion(number, regionDialingFrom)
+
+* PhoneNumberType
+  * PhoneNumberType.FIXED_LINE
+  * PhoneNumberType.MOBILE
+  * PhoneNumberType.FIXED_LINE_OR_MOBILE
+  * PhoneNumberType.TOLL_FREE
+  * PhoneNumberType.PREMIUM_RATE
+  * PhoneNumberType.SHARED_COST
+  * PhoneNumberType.VOIP
+  * PhoneNumberType.PERSONAL_NUMBER
+  * PhoneNumberType.PAGER
+  * PhoneNumberType.UAN
+  * PhoneNumberType.VOICEMAIL
+  * PhoneNumberType.UNKNOWN
+
+* PhoneNumberFormat
+  * PhoneNumberFormat.E164
+  * PhoneNumberFormat.INTERNATIONAL
+  * PhoneNumberFormat.NATIONAL
+  * PhoneNumberFormat.RFC3966
+
+* CountryCodeSource
+  * CountryCodeSource.UNSPECIFIED
+  * CountryCodeSource.FROM_NUMBER_WITH_IDD
+  * CountryCodeSource.FROM_NUMBER_WITHOUT_PLUS_SIGN
+  * CountryCodeSource.FROM_NUMBER_WITH_PLUS_SIGN
+  * CountryCodeSource.FROM_DEFAULT_COUNTRY
+
+* PhoneNumber
+  * getCountryCode()
+  * getCountryCodeSource()
+  * getExtension()
+  * getItalianLeadingZero()
+  * getNationalNumber()
+  * getRawInput()
+
 ## 💡 Usage
 
 ### 🎀 PhoneNumberUtil
