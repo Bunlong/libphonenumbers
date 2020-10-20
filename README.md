@@ -62,6 +62,29 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * getNationalNumber()
   * getRawInput()
 
+## ❌ Missing Features:
+
+JS port of Google's libphonenumber does not support the following functions and classes:
+
+* findNumbers
+* PhoneNumberOfflineGeocoder
+* PhoneNumberToTimeZonesMapper
+* PhoneNumberToCarrierMapper
+
+## 🔧 Install
+
+libphonenumbers is available on npm. It can be installed with the following command:
+
+```
+npm install libphonenumbers --save
+```
+
+libphonenumbers is available on yarn as well. It can be installed with the following command:
+
+```
+yarn add libphonenumbers
+```
+
 ## 💡 Usage
 
 ### 🎀 PhoneNumberUtil
@@ -115,28 +138,9 @@ console.log(phoneUtil.format(number, PNF.INTERNATIONAL));
 // => +1 300-577-8989
 ```
 
-## ❌ Missing Features:
+## 🦄 Credit and Inspiration
 
-JS port of Google's libphonenumber does not support the following functions and classes:
-
-* findNumbers
-* PhoneNumberOfflineGeocoder
-* PhoneNumberToTimeZonesMapper
-* PhoneNumberToCarrierMapper
-
-## 🔧 Install
-
-libphonenumbers is available on npm. It can be installed with the following command:
-
-```
-npm install libphonenumbers --save
-```
-
-libphonenumbers is available on yarn as well. It can be installed with the following command:
-
-```
-yarn add libphonenumbers
-```
+Inspired by [Google's libphonenumber](https://github.com/google/libphonenumber).
 
 ## ⚖️ License
 
