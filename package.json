@@ -1,0 +1,49 @@
+{
+  "name": "libphonenumbers",
+  "version": "0.0.1",
+  "description": "Google's common JavaScript library for parsing, formatting, and validating international phone numbers for Node.js.",
+  "author": "Bunlong <bunlong.van@gmail.com>",
+  "license": "(MIT AND Apache-2.0)",
+  "homepage": "https://github.com/Bunlong/libphonenumbers",
+  "bugs": {
+    "url": "https://github.com/Bunlong/libphonenumbers.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bunlong/libphonenumbers.git"
+  },
+  "main": "dist/libphonenumbers.js",
+  "types": "dist/libphonenumbers.d.ts",
+  "keywords": [
+    "libphonenumbers",
+    "libphonenumber",
+    "phonenumbers",
+    "phonenumber",
+    "phones",
+    "phone"
+  ],
+  "options": {
+    "mocha": "--require should test"
+  },
+  "scripts": {
+    "build": "bin/sh/build.sh",
+    "lint": "eslint src/index.js test",
+    "prepare": "npm run build",
+    "test": "npm run build && npm run testonly",
+    "testonly": "mocha $npm_package_options_mocha",
+    "update": "bin/update.sh",
+    "version": "npm run build && git add -A dist"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "eslint": "^3.5.0",
+    "eslint-config-seegno": "^6.0.0",
+    "google-closure-compiler": "^20200719.0.0",
+    "google-closure-library": "^20200719.0.0",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
