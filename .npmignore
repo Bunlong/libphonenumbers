@@ -1,0 +1,5 @@
+.gitignore
+/bin
+/src
+bower.json
+build.xml
