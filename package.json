@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Google's common JavaScript library for parsing, formatting, and validating international phone numbers for Node.js.",
   "author": "Bunlong <bunlong.van@gmail.com>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "homepage": "https://github.com/Bunlong/libphonenumbers",
   "bugs": {
     "url": "https://github.com/Bunlong/libphonenumbers.git/issues"

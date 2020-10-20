@@ -1,11 +1,21 @@
 # libphonenumbers
 
-Google's common JavaScript library for parsing, formatting, and validating international phone numbers for Node.js.
+libphonenumbers – Google's common JavaScript library for parsing, formatting, and validating international phone numbers for Node.js.
+
+> libphonenumbers is JS port of [Google's libphonenumber](https://github.com/google/libphonenumber/tree/master/javascript)
 
 ## 🎁 Features
 
 * Compatible with both JavaScript and TypeScript
-* Easy to use
+
+## ❌ Missing Features:
+
+JS port of Google's libphonenumber does not support the following functions and classes:
+
+* findNumbers
+* PhoneNumberOfflineGeocoder
+* PhoneNumberToTimeZonesMapper
+* PhoneNumberToCarrierMapper
 
 ## 🔧 Install
 
