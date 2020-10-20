@@ -50,5 +50,6 @@ rm -rf dist/* \
 --js=src/i18n/phonenumbers/asyoutypeformatter.js \
 --js_output_file=dist/libphonenumbers.original.js \
 && ./node_modules/.bin/browserify dist/libphonenumbers.original.js --standalone libphonenumbers --no-browser-field --outfile dist/libphonenumbers.js \
+&& ./node_modules/.bin/browserify dist/libphonenumbers.original.js --standalone libphonenumbers --no-browser-field --outfile dist/libphonenumbers.d.ts \
 && rm dist/libphonenumbers.original.js \
 && echo "Build completed!"
