@@ -1,8 +1,8 @@
 # libphonenumbers
 
-libphonenumbers – Google's common JavaScript library for parsing, formatting, and validating international phone numbers for Node.js.
-
 > libphonenumbers is JS port of [Google's libphonenumber](https://github.com/google/libphonenumber/tree/master/javascript).
+
+libphonenumbers – JavaScript port of Google's libphonenumber library for parsing, formatting, and validating international phone numbers in Node.js.
 
 [![NPM](https://img.shields.io/npm/v/libphonenumbers.svg)](https://www.npmjs.com/package/libphonenumbers)
 
