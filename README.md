@@ -33,33 +33,6 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * isPossibleShortNumber(number)
   * isValidShortNumberForRegion(number, regionDialingFrom)
 
-* PhoneNumberType
-  * FIXED_LINE
-  * MOBILE
-  * SHARED_COST
-  * FIXED_LINE_OR_MOBILE
-  * TOLL_FREE
-  * PREMIUM_RATE
-  * PAGER
-  * VOIP
-  * PERSONAL_NUMBER
-  * VOICEMAIL
-  * UAN
-  * UNKNOWN
-
-* PhoneNumberFormat
-  * PhoneNumberFormat.E164
-  * PhoneNumberFormat.INTERNATIONAL
-  * PhoneNumberFormat.NATIONAL
-  * PhoneNumberFormat.RFC3966
-
-* CountryCodeSource
-  * UNSPECIFIED
-  * FROM_NUMBER_WITH_IDD
-  * FROM_NUMBER_WITHOUT_PLUS_SIGN
-  * FROM_NUMBER_WITH_PLUS_SIGN
-  * FROM_DEFAULT_COUNTRY
-
 * PhoneNumber
   * getCountryCode()
   * getCountryCodeSource()
@@ -67,6 +40,33 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * getItalianLeadingZero()
   * getNationalNumber()
   * getRawInput()
+
+* PhoneNumberType
+  * FIXED_LINE ( value: 0 )
+  * MOBILE ( value: 1 )
+  * FIXED_LINE_OR_MOBILE ( value: 2 )
+  * TOLL_FREE ( value: 3 )
+  * PREMIUM_RATE ( value: 4 )
+  * SHARED_COST ( value: 5 )
+  * VOIP ( value: 6 )
+  * PERSONAL_NUMBER ( value: 7 )
+  * PAGER ( value: 8 )
+  * UAN ( value: 8 )
+  * VOICEMAIL ( value: 10 )
+  * UNKNOWN ( value: -1 )
+
+* PhoneNumberFormat
+  * E164 ( value: 0 )
+  * INTERNATIONAL ( value: 1 )
+  * NATIONAL ( value: 2 )
+  * RFC3966: ( value: 3 )
+
+* CountryCodeSource
+  * UNSPECIFIED ( value: 0)
+  * FROM_NUMBER_WITH_PLUS_SIGN ( value: 1)
+  * FROM_NUMBER_WITH_IDD ( value: 5)
+  * FROM_NUMBER_WITHOUT_PLUS_SIGN ( value: 10)
+  * FROM_DEFAULT_COUNTRY ( value: 20)
 
 ## ❌ Missing Features:
 
