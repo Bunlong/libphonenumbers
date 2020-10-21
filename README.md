@@ -1,6 +1,6 @@
-<center>
-  ![libphonenumbers](https://raw.githubusercontent.com/Bunlong/libphonenumbers/main/static/images/libphonenumbers.png "libphonenumbers")
-</center>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Bunlong/libphonenumbers/main/static/images/libphonenumbers.png" alt="libphonenumbers" />
+</p>
 
 # libphonenumbers
 
