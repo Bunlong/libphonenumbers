@@ -176,6 +176,44 @@ console.log(phoneUtil.formatInOriginalFormat(number, 'US'));
 // => (300) 577-8989
 ```
 
+#### formatOutOfCountryCallingNumber(number, regionCallingFrom)
+
+Using Standard JavaScript:
+
+```js
+// Create an instance of PhoneNumberUtil
+const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
+
+// Format number in the out-of-country format from US
+console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'US'));
+// => 1 (300) 577-8989
+
+// Format number in the out-of-country format from JP
+console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'JP'));
+// => 010 1 300-577-8989
+```
+
+Using ECMAScript (ES):
+
+```js
+// Create an instance of PhoneNumberUtil
+const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
+
+// Format number in the out-of-country format from US
+console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'US'));
+// => 1 (300) 577-8989
+
+// Format number in the out-of-country format from JP
+console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'JP'));
+// => 010 1 300-577-8989
+```
+
 ## 🦄 Credit and Inspiration
 
 Inspired by [Google's libphonenumber](https://github.com/google/libphonenumber).
