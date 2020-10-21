@@ -1,5 +1,4 @@
-.gitignore
 /bin
 /src
-bower.json
+.gitignore
 build.xml
