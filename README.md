@@ -17,7 +17,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
 * PhoneNumberUtil
   * [format(number, numberFormat)](#formatnumber-numberformat)
   * [formatInOriginalFormat(number, regionCallingFrom)](#formatinoriginalformatnumber-regioncallingfrom)
-  * formatOutOfCountryCallingNumber(number, regionCallingFrom)
+  * [formatOutOfCountryCallingNumber(number, regionCallingFrom)](#formatoutofcountrycallingnumbernumber-regioncallingfrom)
   * getNumberType(number)
   * getRegionCodeForNumber(number)
   * isPossibleNumber(number)
