@@ -16,7 +16,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
 
 * PhoneNumberUtil
   * [format(number, numberFormat)](#formatnumber-numberformat)
-  * formatInOriginalFormat(number, regionCallingFrom)
+  * [formatInOriginalFormat(number, regionCallingFrom)](#formatinoriginalformatnumber-regioncallingfrom)
   * formatOutOfCountryCallingNumber(number, regionCallingFrom)
   * getNumberType(number)
   * getRegionCodeForNumber(number)
@@ -104,6 +104,7 @@ const PNF = require('libphonenumbers').PhoneNumberFormat;
 // Create an instance of PhoneNumberUtil
 const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance(); 
 
+// Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
 
 // Format number in the RFC3966 format
@@ -129,6 +130,7 @@ const PNF = libphonenumbers.PhoneNumberFormat;
 // Create an instance of PhoneNumberUtil
 const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
+// Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
 
 // Format number in the RFC3966 format
@@ -152,6 +154,7 @@ Using Standard JavaScript:
 // Create an instance of PhoneNumberUtil
 const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 
+// Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
 
 // Format number in the original format
@@ -165,6 +168,7 @@ Using ECMAScript (ES):
 // Create an instance of PhoneNumberUtil
 const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
+// Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
 
 // Format number in the original format
