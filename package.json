@@ -1,7 +1,7 @@
 {
   "name": "libphonenumbers",
-  "version": "0.0.2",
-  "description": "Google's common JavaScript library for parsing, formatting, and validating international phone numbers for Node.js.",
+  "version": "0.0.3",
+  "description": "JavaScript port of Google's libphonenumber library for parsing, formatting, and validating international phone numbers in Node.js.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/Bunlong/libphonenumbers",
