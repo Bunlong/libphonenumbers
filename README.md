@@ -21,7 +21,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [getNumberType(number)](#-getnumbertypenumber)
   * [getRegionCodeForNumber(number)](#-getregioncodefornumbernumber)
   * [isPossibleNumber(number)](#-ispossiblenumbernumber)
-  * isValidNumber(number)
+  * [isValidNumber(number)](#-isvalidnumbernumber)
   * isValidNumberForRegion(number, regionCode)
   * parseAndKeepRawInput(numberToParse, defaultRegion)
   * parse(numberToParse, defaultRegion)
