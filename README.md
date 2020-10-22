@@ -23,7 +23,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [isPossibleNumber(number)](#-ispossiblenumbernumber)
   * [isValidNumber(number)](#-isvalidnumbernumber)
   * [isValidNumberForRegion(number, regionCode)](#-isvalidnumberforregionnumber-regioncode)
-  * parseAndKeepRawInput(numberToParse, defaultRegion)
+  * [parseAndKeepRawInput(numberToParse, defaultRegion)](#-parseandkeeprawinputnumbertoparse-defaultregion)
   * parse(numberToParse, defaultRegion)
 
 * ShortNumberInfo
