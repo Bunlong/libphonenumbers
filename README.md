@@ -95,7 +95,7 @@ yarn add libphonenumbers
 
 ### 🎀 PhoneNumberUtil
 
-#### format(number, numberFormat)
+#### 📦 format(number, numberFormat)
 
 Using Standard JavaScript:
 
@@ -146,7 +146,7 @@ console.log(phoneUtil.format(number, PNF.INTERNATIONAL));
 // => +1 300-577-8989
 ```
 
-#### formatInOriginalFormat(number, regionCallingFrom)
+#### 📦 formatInOriginalFormat(number, regionCallingFrom)
 
 Using Standard JavaScript:
 
@@ -178,7 +178,7 @@ console.log(phoneUtil.formatInOriginalFormat(number, 'US'));
 // => (300) 577-8989
 ```
 
-#### formatOutOfCountryCallingNumber(number, regionCallingFrom)
+#### 📦 formatOutOfCountryCallingNumber(number, regionCallingFrom)
 
 Using Standard JavaScript:
 
@@ -216,6 +216,38 @@ console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'US'));
 // Format number in the out-of-country format from JP
 console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'JP'));
 // => 010 1 300-577-8989
+```
+
+#### 📦 getNumberType(number)
+
+Using Standard JavaScript:
+
+```js
+// Create an instance of PhoneNumberUtil
+const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
+
+// Get type of phone number
+console.log(phoneUtil.getNumberType(number));
+// => 2 // FIXED_LINE_OR_MOBILE
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Create an instance of PhoneNumberUtil
+const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
+
+// Get type of phone number
+console.log(phoneUtil.getNumberType(number));
+// => 2 // FIXED_LINE_OR_MOBILE
 ```
 
 ## 🦄 Credit and Inspiration
