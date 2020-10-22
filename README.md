@@ -250,6 +250,38 @@ console.log(phoneUtil.getNumberType(number));
 // => 2 // FIXED_LINE_OR_MOBILE
 ```
 
+#### 📦 getRegionCodeForNumber(number)
+
+Using Standard JavaScript:
+
+```js
+// Create an instance of PhoneNumberUtil
+const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
+
+// Get region code of number
+console.log(phoneUtil.getRegionCodeForNumber(number));
+// => US
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Create an instance of PhoneNumberUtil
+const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
+
+// Get region code of number
+console.log(phoneUtil.getRegionCodeForNumber(number));
+// => US
+```
+
 ## 🦄 Credit and Inspiration
 
 Inspired by [Google's libphonenumber](https://github.com/google/libphonenumber).
