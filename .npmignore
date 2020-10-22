@@ -1,4 +1,5 @@
 /bin
 /src
+/static
 .gitignore
 build.xml
