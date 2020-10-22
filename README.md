@@ -165,6 +165,8 @@ console.log(phoneUtil.formatInOriginalFormat(number, 'US'));
 Using ECMAScript (ES):
 
 ```js
+import libphonenumbers from 'libphonenumbers';
+
 // Create an instance of PhoneNumberUtil
 const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
@@ -199,6 +201,8 @@ console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'JP'));
 Using ECMAScript (ES):
 
 ```js
+import libphonenumbers from 'libphonenumbers';
+
 // Create an instance of PhoneNumberUtil
 const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
