@@ -402,6 +402,30 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 ```
 
+#### 📦 parse(numberToParse, defaultRegion)
+
+Using Standard JavaScript:
+
+```js
+// Create an instance of PhoneNumberUtil
+const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
+
+// Get proto buffer format of
+console.log(phoneUtil.parse('123456', 'US'));
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Create an instance of PhoneNumberUtil
+const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
+
+// Get proto buffer format of
+console.log(phoneUtil.parse('123456', 'US'));
+```
+
 ## 🦄 Credit and Inspiration
 
 Inspired by [Google's libphonenumber](https://github.com/google/libphonenumber).
