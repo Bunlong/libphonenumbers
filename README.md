@@ -19,7 +19,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [formatInOriginalFormat(number, regionCallingFrom)](#-formatinoriginalformatnumber-regioncallingfrom)
   * [formatOutOfCountryCallingNumber(number, regionCallingFrom)](#-formatoutofcountrycallingnumbernumber-regioncallingfrom)
   * [getNumberType(number)](#-getnumbertypenumber)
-  * getRegionCodeForNumber(number)
+  * [getRegionCodeForNumber(number)](#-getregioncodefornumbernumber)
   * isPossibleNumber(number)
   * isValidNumber(number)
   * isValidNumberForRegion(number, regionCode)
