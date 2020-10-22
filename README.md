@@ -15,10 +15,10 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
 libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>TypeScript</strong>.
 
 * PhoneNumberUtil
-  * [format(number, numberFormat)](#formatnumber-numberformat)
-  * [formatInOriginalFormat(number, regionCallingFrom)](#formatinoriginalformatnumber-regioncallingfrom)
-  * [formatOutOfCountryCallingNumber(number, regionCallingFrom)](#formatoutofcountrycallingnumbernumber-regioncallingfrom)
-  * getNumberType(number)
+  * [format(number, numberFormat)](#-formatnumber-numberformat)
+  * [formatInOriginalFormat(number, regionCallingFrom)](#-formatinoriginalformatnumber-regioncallingfrom)
+  * [formatOutOfCountryCallingNumber(number, regionCallingFrom)](#-formatoutofcountrycallingnumbernumber-regioncallingfrom)
+  * [getNumberType(number)](#-getnumbertypenumber)
   * getRegionCodeForNumber(number)
   * isPossibleNumber(number)
   * isValidNumber(number)
