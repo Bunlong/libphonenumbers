@@ -410,7 +410,7 @@ Using Standard JavaScript:
 // Create an instance of PhoneNumberUtil
 const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 
-// Get proto buffer format of
+// Get prototype buffer format
 console.log(phoneUtil.parse('123456', 'US'));
 ```
 
@@ -422,8 +422,36 @@ import libphonenumbers from 'libphonenumbers';
 // Create an instance of PhoneNumberUtil
 const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
-// Get proto buffer format of
+// Get proto buffer format
 console.log(phoneUtil.parse('123456', 'US'));
+```
+
+### 🎀 ShortNumberInfo
+
+#### 📦 connectsToEmergencyNumber(number, regionCode)
+
+Using Standard JavaScript:
+
+```js
+// Get an instance of ShortNumberInfo
+const shortInfo = require('libphonenumbers').ShortNumberInfo.getInstance();
+
+// Check 911 is emergency number in US
+console.log(shortInfo.connectsToEmergencyNumber('911', 'US'));
+// => true
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Get an instance of ShortNumberInfo
+const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
+
+// Check 911 is emergency number in US
+console.log(shortInfo.connectsToEmergencyNumber('911', 'US'));
+// => true
 ```
 
 ## 🦄 Credit and Inspiration
