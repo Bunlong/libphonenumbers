@@ -28,9 +28,9 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
 
 * ShortNumberInfo
   * [connectsToEmergencyNumber(number, regionCode)](#-connectstoemergencynumbernumber-regioncode)
+  * isPossibleShortNumber(number)
   * isPossibleShortNumberForRegion(number, regionDialingFrom)
   * isValidShortNumber(number)
-  * isPossibleShortNumber(number)
   * isValidShortNumberForRegion(number, regionDialingFrom)
 
 * PhoneNumber
@@ -451,6 +451,38 @@ const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
 
 // Check 911 is emergency number in US
 console.log(shortInfo.connectsToEmergencyNumber('911', 'US'));
+// => true
+```
+
+#### 📦 isPossibleShortNumber(number)
+
+Using Standard JavaScript:
+
+```js
+// Get an instance of ShortNumberInfo
+const shortInfo = require('libphonenumbers').ShortNumberInfo.getInstance();
+
+// Get an instance of PhoneNumberUtil
+const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
+
+// Result from isPossibleShortNumber().
+console.log(shortInfo.isPossibleShortNumber(phoneUtil.parse('123456', 'FR')));
+// => true
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Get an instance of ShortNumberInfo
+const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
+
+// Get an instance of PhoneNumberUtil
+const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
+
+// Result from isPossibleShortNumber().
+console.log(shortInfo.isPossibleShortNumber(phoneUtil.parse('123456', 'FR')));
 // => true
 ```
 
