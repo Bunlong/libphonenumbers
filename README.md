@@ -28,7 +28,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
 
 * ShortNumberInfo
   * [connectsToEmergencyNumber(number, regionCode)](#-connectstoemergencynumbernumber-regioncode)
-  * isPossibleShortNumber(number)
+  * [isPossibleShortNumber(number)](#-ispossibleshortnumbernumber)
   * isPossibleShortNumberForRegion(number, regionDialingFrom)
   * isValidShortNumber(number)
   * isValidShortNumberForRegion(number, regionDialingFrom)
