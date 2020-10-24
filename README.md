@@ -34,7 +34,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * isValidShortNumberForRegion(number, regionDialingFrom)
 
 * PhoneNumber
-  * getCountryCode()
+  * [getCountryCode()](#-getcountrycode)
   * getCountryCodeSource()
   * getExtension()
   * getItalianLeadingZero()
