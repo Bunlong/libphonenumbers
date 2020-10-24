@@ -39,7 +39,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [getExtension()](#-getextension)
   * [getItalianLeadingZero()](#-getitalianleadingzero)
   * [getNationalNumber()](#-getnationalnumber)
-  * [getRawInput()]()
+  * [getRawInput()](#-getrawinput)
 
 * PhoneNumberType
   * FIXED_LINE ( value: 0 )
