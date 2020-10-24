@@ -616,6 +616,38 @@ console.log(number.getExtension());
 // => null
 ```
 
+#### 📦 getItalianLeadingZero()
+
+Using Standard JavaScript:
+
+```js
+// Create an instance of PhoneNumberUtil
+const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance(); 
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
+
+// Get phone's italian leading zero
+console.log(number.getItalianLeadingZero());
+// => null
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Create an instance of PhoneNumberUtil
+const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
+
+// Get phone's italian leading zero
+console.log(number.getItalianLeadingZero());
+// => null
+```
+
 ## 🦄 Credit and Inspiration
 
 Inspired by [Google's libphonenumber](https://github.com/google/libphonenumber).
