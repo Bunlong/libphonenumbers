@@ -39,7 +39,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [getExtension()](#-getextension)
   * [getItalianLeadingZero()](#-getitalianleadingzero)
   * [getNationalNumber()](#-getnationalnumber)
-  * getRawInput()
+  * [getRawInput()]()
 
 * PhoneNumberType
   * FIXED_LINE ( value: 0 )
@@ -678,6 +678,38 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 // Get the phone's national number
 console.log(number.getNationalNumber());
 // => 2024562121
+```
+
+#### 📦 getRawInput()
+
+Using Standard JavaScript:
+
+```js
+// Create an instance of PhoneNumberUtil
+const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance(); 
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
+
+// Get the phone's raw input
+console.log(number.getRawInput());
+// => 202-456-2121
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Create an instance of PhoneNumberUtil
+const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
+
+// Get the phone's raw input
+console.log(number.getRawInput());
+// => 202-456-2121
 ```
 
 ## 🦄 Credit and Inspiration
