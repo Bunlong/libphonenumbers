@@ -42,31 +42,31 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [getRawInput()](#-getrawinput)
 
 * PhoneNumberType
-  * FIXED_LINE ( value: 0 )
-  * MOBILE ( value: 1 )
-  * FIXED_LINE_OR_MOBILE ( value: 2 )
-  * TOLL_FREE ( value: 3 )
-  * PREMIUM_RATE ( value: 4 )
-  * SHARED_COST ( value: 5 )
-  * VOIP ( value: 6 )
-  * PERSONAL_NUMBER ( value: 7 )
-  * PAGER ( value: 8 )
-  * UAN ( value: 8 )
-  * VOICEMAIL ( value: 10 )
-  * UNKNOWN ( value: -1 )
+  * FIXED_LINE ( value is 0 )
+  * MOBILE ( value is 1 )
+  * FIXED_LINE_OR_MOBILE ( value is 2 )
+  * TOLL_FREE ( value is 3 )
+  * PREMIUM_RATE ( value is 4 )
+  * SHARED_COST ( value is 5 )
+  * VOIP ( value is 6 )
+  * PERSONAL_NUMBER ( value is 7 )
+  * PAGER ( value is 8 )
+  * UAN ( value is 9 )
+  * VOICEMAIL ( value is 10 )
+  * UNKNOWN ( value is -1 )
 
 * PhoneNumberFormat
-  * E164 ( value: 0 )
-  * INTERNATIONAL ( value: 1 )
-  * NATIONAL ( value: 2 )
-  * RFC3966: ( value: 3 )
+  * E164 ( value is 0 )
+  * INTERNATIONAL ( value is 1 )
+  * NATIONAL ( value is 2 )
+  * RFC3966: ( value is 3 )
 
 * CountryCodeSource
-  * UNSPECIFIED ( value: 0)
-  * FROM_NUMBER_WITH_PLUS_SIGN ( value: 1)
-  * FROM_NUMBER_WITH_IDD ( value: 5)
-  * FROM_NUMBER_WITHOUT_PLUS_SIGN ( value: 10)
-  * FROM_DEFAULT_COUNTRY ( value: 20)
+  * UNSPECIFIED ( value is 0)
+  * FROM_NUMBER_WITH_PLUS_SIGN ( value is 1)
+  * FROM_NUMBER_WITH_IDD ( value is 5)
+  * FROM_NUMBER_WITHOUT_PLUS_SIGN ( value is 10)
+  * FROM_DEFAULT_COUNTRY ( value is 20)
 
 ## ❌ Missing Features:
 
