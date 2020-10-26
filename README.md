@@ -55,11 +55,11 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [getRawInput()](#-getrawinput)
 
 * CountryCodeSource
-  * UNSPECIFIED ( value is 0)
-  * FROM_NUMBER_WITH_PLUS_SIGN ( value is 1)
-  * FROM_NUMBER_WITH_IDD ( value is 5)
-  * FROM_NUMBER_WITHOUT_PLUS_SIGN ( value is 10)
-  * FROM_DEFAULT_COUNTRY ( value is 20)
+  * UNSPECIFIED ( value is 0 )
+  * FROM_NUMBER_WITH_PLUS_SIGN ( value is 1 )
+  * FROM_NUMBER_WITH_IDD ( value is 5 )
+  * FROM_NUMBER_WITHOUT_PLUS_SIGN ( value is 10 )
+  * FROM_DEFAULT_COUNTRY ( value is 20 )
 
 * ShortNumberInfo
   * [connectsToEmergencyNumber(number, regionCode)](#-connectstoemergencynumbernumber-regioncode)
