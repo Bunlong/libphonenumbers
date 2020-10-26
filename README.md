@@ -15,8 +15,8 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
 libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>TypeScript</strong>.
 
 * PhoneNumberUtil
-  * [format(number, numberFormat)](#-formatnumber-numberformat): is used to formats a phone number in the specified format using default rules.
-  * [formatInOriginalFormat(number, regionCallingFrom)](#-formatinoriginalformatnumber-regioncallingfrom)
+  * [format(number, numberFormat)](#-formatnumber-numberformat) – Is used to formats a phone number in the specified format using default rules.
+  * [formatInOriginalFormat(number, regionCallingFrom)](#-formatinoriginalformatnumber-regioncallingfrom) – Is used to formats a phone number using the original phone number format that the number is parsed from.
   * [formatOutOfCountryCallingNumber(number, regionCallingFrom)](#-formatoutofcountrycallingnumbernumber-regioncallingfrom)
   * [getNumberType(number)](#-getnumbertypenumber)
   * [getRegionCodeForNumber(number)](#-getregioncodefornumbernumber)
