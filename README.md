@@ -18,7 +18,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [format(number, numberFormat)](#-formatnumber-numberformat) is used to formats a phone number in the specified format using default rules.
   * [formatInOriginalFormat(number, regionCallingFrom)](#-formatinoriginalformatnumber-regioncallingfrom) is used to formats a phone number using the original phone number format that the number is parsed from.
   * [formatOutOfCountryCallingNumber(number, regionCallingFrom)](#-formatoutofcountrycallingnumbernumber-regioncallingfrom) is used to formats a phone number for out-of-country dialing purposes.
-  * [getNumberType(number)](#-getnumbertypenumber)
+  * [getNumberType(number)](#-getnumbertypenumber) is used to gets the type of a valid phone number.
   * [getRegionCodeForNumber(number)](#-getregioncodefornumbernumber)
   * [isPossibleNumber(number)](#-ispossiblenumbernumber)
   * [isValidNumber(number)](#-isvalidnumbernumber)
