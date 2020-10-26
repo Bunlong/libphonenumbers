@@ -66,7 +66,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [isPossibleShortNumber(number)](#-ispossibleshortnumbernumber) is used to checks whether a short number is a possible number.
   * [isPossibleShortNumberForRegion(number, regionDialingFrom)](#-ispossibleshortnumberforregionnumber-regiondialingfrom) is used to checks whether a short number is a possible number when dialed from the given region.
   * isValidShortNumber(number) is used to checks whether a short number is a valid number.
-  * isValidShortNumberForRegion(number, regionDialingFrom)
+  * isValidShortNumberForRegion(number, regionDialingFrom) is used to checks whether a short number matches a valid pattern in a region.
 
 ## ❌ Missing Features:
 
