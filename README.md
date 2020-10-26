@@ -27,6 +27,9 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [parse(numberToParse, defaultRegion)](#-parsenumbertoparse-defaultregion) is used to parses a string and returns it in proto buffer format.
 
 * PhoneNumberFormat
+
+The following enums is used to pass to [format(number, numberFormat)](#-formatnumber-numberformat):
+
   * E164 ( value is 0 )
   * INTERNATIONAL ( value is 1 )
   * NATIONAL ( value is 2 )
