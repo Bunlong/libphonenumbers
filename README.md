@@ -309,9 +309,9 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 // Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
-// Get region code of number
-console.log(phoneUtil.getRegionCodeForNumber(number));
-// => US
+// Check is possible number
+console.log(phoneUtil.isPossibleNumber(number));
+// => true
 ```
 
 #### 📦 isValidNumber(number)
