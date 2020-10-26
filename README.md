@@ -426,98 +426,6 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 console.log(phoneUtil.parse('123456', 'US'));
 ```
 
-### 🎀 ShortNumberInfo
-
-#### 📦 connectsToEmergencyNumber(number, regionCode)
-
-Using Standard JavaScript:
-
-```js
-// Get an instance of ShortNumberInfo
-const shortInfo = require('libphonenumbers').ShortNumberInfo.getInstance();
-
-// Check 911 is emergency number in US
-console.log(shortInfo.connectsToEmergencyNumber('911', 'US'));
-// => true
-```
-
-Using ECMAScript (ES):
-
-```js
-import libphonenumbers from 'libphonenumbers';
-
-// Get an instance of ShortNumberInfo
-const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
-
-// Check 911 is emergency number in US
-console.log(shortInfo.connectsToEmergencyNumber('911', 'US'));
-// => true
-```
-
-#### 📦 isPossibleShortNumber(number)
-
-Using Standard JavaScript:
-
-```js
-// Get an instance of ShortNumberInfo
-const shortInfo = require('libphonenumbers').ShortNumberInfo.getInstance();
-
-// Get an instance of PhoneNumberUtil
-const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
-
-// Check 123456 is possible short number in FR
-console.log(shortInfo.isPossibleShortNumber(phoneUtil.parse('123456', 'FR')));
-// => true
-```
-
-Using ECMAScript (ES):
-
-```js
-import libphonenumbers from 'libphonenumbers';
-
-// Get an instance of ShortNumberInfo
-const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
-
-// Get an instance of PhoneNumberUtil
-const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
-
-// Check 123456 is possible short number in FR
-console.log(shortInfo.isPossibleShortNumber(phoneUtil.parse('123456', 'FR')));
-// => true
-```
-
-#### 📦 isPossibleShortNumberForRegion(number, regionDialingFrom)
-
-Using Standard JavaScript:
-
-```js
-// Get an instance of ShortNumberInfo
-const shortInfo = require('libphonenumbers').ShortNumberInfo.getInstance();
-
-// Get an instance of PhoneNumberUtil
-const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
-
-// Check 123456 is possible short number for region in FR
-console.log(shortInfo.isPossibleShortNumberForRegion(phoneUtil.parse('123456', 'FR'), 'FR'));
-// => true
-```
-
-Using ECMAScript (ES):
-
-```js
-import libphonenumbers from 'libphonenumbers';
-
-// Get an instance of ShortNumberInfo
-const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
-
-// Get an instance of PhoneNumberUtil
-const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
-
-// Check 123456 is possible short number for region in FR
-console.log(shortInfo.isPossibleShortNumberForRegion(phoneUtil.parse('123456', 'FR'), 'FR'));
-// => true
-```
-
 ### 🎀 PhoneNumber
 
 #### 📦 getCountryCode()
@@ -710,6 +618,98 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 // Get the phone's raw input
 console.log(number.getRawInput());
 // => 202-456-2121
+```
+
+### 🎀 ShortNumberInfo
+
+#### 📦 connectsToEmergencyNumber(number, regionCode)
+
+Using Standard JavaScript:
+
+```js
+// Get an instance of ShortNumberInfo
+const shortInfo = require('libphonenumbers').ShortNumberInfo.getInstance();
+
+// Check 911 is emergency number in US
+console.log(shortInfo.connectsToEmergencyNumber('911', 'US'));
+// => true
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Get an instance of ShortNumberInfo
+const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
+
+// Check 911 is emergency number in US
+console.log(shortInfo.connectsToEmergencyNumber('911', 'US'));
+// => true
+```
+
+#### 📦 isPossibleShortNumber(number)
+
+Using Standard JavaScript:
+
+```js
+// Get an instance of ShortNumberInfo
+const shortInfo = require('libphonenumbers').ShortNumberInfo.getInstance();
+
+// Get an instance of PhoneNumberUtil
+const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
+
+// Check 123456 is possible short number in FR
+console.log(shortInfo.isPossibleShortNumber(phoneUtil.parse('123456', 'FR')));
+// => true
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Get an instance of ShortNumberInfo
+const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
+
+// Get an instance of PhoneNumberUtil
+const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
+
+// Check 123456 is possible short number in FR
+console.log(shortInfo.isPossibleShortNumber(phoneUtil.parse('123456', 'FR')));
+// => true
+```
+
+#### 📦 isPossibleShortNumberForRegion(number, regionDialingFrom)
+
+Using Standard JavaScript:
+
+```js
+// Get an instance of ShortNumberInfo
+const shortInfo = require('libphonenumbers').ShortNumberInfo.getInstance();
+
+// Get an instance of PhoneNumberUtil
+const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
+
+// Check 123456 is possible short number for region in FR
+console.log(shortInfo.isPossibleShortNumberForRegion(phoneUtil.parse('123456', 'FR'), 'FR'));
+// => true
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Get an instance of ShortNumberInfo
+const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
+
+// Get an instance of PhoneNumberUtil
+const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
+
+// Check 123456 is possible short number for region in FR
+console.log(shortInfo.isPossibleShortNumberForRegion(phoneUtil.parse('123456', 'FR'), 'FR'));
+// => true
 ```
 
 ## 🦄 Credit and Inspiration
