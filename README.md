@@ -22,7 +22,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [getRegionCodeForNumber(number)](#-getregioncodefornumbernumber) is used to gets the region where a phone number is from.
   * [isPossibleNumber(number)](#-ispossiblenumbernumber) is used to check whether a phone number is possible.
   * [isValidNumber(number)](#-isvalidnumbernumber) is used to check whether a phone number matches a valid pattern.
-  * [isValidNumberForRegion(number, regionCode)](#-isvalidnumberforregionnumber-regioncode)
+  * [isValidNumberForRegion(number, regionCode)](#-isvalidnumberforregionnumber-regioncode) is used to check whether a phone number is valid for a certain region.
   * [parseAndKeepRawInput(numberToParse, defaultRegion)](#-parseandkeeprawinputnumbertoparse-defaultregion)
   * [parse(numberToParse, defaultRegion)](#-parsenumbertoparse-defaultregion)
 
