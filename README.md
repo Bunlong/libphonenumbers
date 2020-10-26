@@ -20,8 +20,8 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [formatOutOfCountryCallingNumber(number, regionCallingFrom)](#-formatoutofcountrycallingnumbernumber-regioncallingfrom) is used to formats a phone number for out-of-country dialing purposes.
   * [getNumberType(number)](#-getnumbertypenumber) is used to gets the type of a valid phone number.
   * [getRegionCodeForNumber(number)](#-getregioncodefornumbernumber) is used to gets the region where a phone number is from.
-  * [isPossibleNumber(number)](#-ispossiblenumbernumber)
-  * [isValidNumber(number)](#-isvalidnumbernumber)
+  * [isPossibleNumber(number)](#-ispossiblenumbernumber) is used to check whether a phone number is possible.
+  * [isValidNumber(number)](#-isvalidnumbernumber) is used to check whether a phone number matches a valid pattern.
   * [isValidNumberForRegion(number, regionCode)](#-isvalidnumberforregionnumber-regioncode)
   * [parseAndKeepRawInput(numberToParse, defaultRegion)](#-parseandkeeprawinputnumbertoparse-defaultregion)
   * [parse(numberToParse, defaultRegion)](#-parsenumbertoparse-defaultregion)
