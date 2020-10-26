@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Bunlong/libphonenumbers/main/static/images/libphonenumbers.png" alt="libphonenumbers" />
+  <img src="https://raw.githubusercontent.com/Bunlong/libphonenumbers/main/static/images/libphonenumbers-mini.png" alt="libphonenumbers" />
 </p>
 
 # libphonenumbers
