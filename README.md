@@ -54,7 +54,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [getNationalNumber()](#-getnationalnumber)
   * [getRawInput()](#-getrawinput)
 
-* CountryCodeSource
+* CountryCodeSource ( Enums in order to compare them with the output of [getCountryCodeSource()](#-getcountrycodesource) )
   * UNSPECIFIED ( value is 0 )
   * FROM_NUMBER_WITH_PLUS_SIGN ( value is 1 )
   * FROM_NUMBER_WITH_IDD ( value is 5 )
