@@ -26,20 +26,11 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * [parseAndKeepRawInput(numberToParse, defaultRegion)](#-parseandkeeprawinputnumbertoparse-defaultregion) is used to parses a string and returns it in prototype buffer format while keeping the raw input value.
   * [parse(numberToParse, defaultRegion)](#-parsenumbertoparse-defaultregion) is used to parses a string and returns it in proto buffer format.
 
-* ShortNumberInfo
-  * [connectsToEmergencyNumber(number, regionCode)](#-connectstoemergencynumbernumber-regioncode)
-  * [isPossibleShortNumber(number)](#-ispossibleshortnumbernumber)
-  * [isPossibleShortNumberForRegion(number, regionDialingFrom)](#-ispossibleshortnumberforregionnumber-regiondialingfrom)
-  * isValidShortNumber(number)
-  * isValidShortNumberForRegion(number, regionDialingFrom)
-
-* PhoneNumber
-  * [getCountryCode()](#-getcountrycode)
-  * [getCountryCodeSource()](#-getcountrycodesource)
-  * [getExtension()](#-getextension)
-  * [getItalianLeadingZero()](#-getitalianleadingzero)
-  * [getNationalNumber()](#-getnationalnumber)
-  * [getRawInput()](#-getrawinput)
+* PhoneNumberFormat
+  * E164 ( value is 0 )
+  * INTERNATIONAL ( value is 1 )
+  * NATIONAL ( value is 2 )
+  * RFC3966: ( value is 3 )
 
 * PhoneNumberType
   * FIXED_LINE ( value is 0 )
@@ -55,11 +46,13 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * VOICEMAIL ( value is 10 )
   * UNKNOWN ( value is -1 )
 
-* PhoneNumberFormat
-  * E164 ( value is 0 )
-  * INTERNATIONAL ( value is 1 )
-  * NATIONAL ( value is 2 )
-  * RFC3966: ( value is 3 )
+* PhoneNumber
+  * [getCountryCode()](#-getcountrycode)
+  * [getCountryCodeSource()](#-getcountrycodesource)
+  * [getExtension()](#-getextension)
+  * [getItalianLeadingZero()](#-getitalianleadingzero)
+  * [getNationalNumber()](#-getnationalnumber)
+  * [getRawInput()](#-getrawinput)
 
 * CountryCodeSource
   * UNSPECIFIED ( value is 0)
@@ -67,6 +60,13 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
   * FROM_NUMBER_WITH_IDD ( value is 5)
   * FROM_NUMBER_WITHOUT_PLUS_SIGN ( value is 10)
   * FROM_DEFAULT_COUNTRY ( value is 20)
+
+* ShortNumberInfo
+  * [connectsToEmergencyNumber(number, regionCode)](#-connectstoemergencynumbernumber-regioncode)
+  * [isPossibleShortNumber(number)](#-ispossibleshortnumbernumber)
+  * [isPossibleShortNumberForRegion(number, regionDialingFrom)](#-ispossibleshortnumberforregionnumber-regiondialingfrom)
+  * isValidShortNumber(number)
+  * isValidShortNumberForRegion(number, regionDialingFrom)
 
 ## ❌ Missing Features:
 
