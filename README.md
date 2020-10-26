@@ -63,7 +63,7 @@ libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>
 
 * ShortNumberInfo
   * [connectsToEmergencyNumber(number, regionCode)](#-connectstoemergencynumbernumber-regioncode) is used to checks whether the short number can be used to connect to emergency services when dialed from the given region.
-  * [isPossibleShortNumber(number)](#-ispossibleshortnumbernumber)
+  * [isPossibleShortNumber(number)](#-ispossibleshortnumbernumber) is used to checks whether a short number is a possible number.
   * [isPossibleShortNumberForRegion(number, regionDialingFrom)](#-ispossibleshortnumberforregionnumber-regiondialingfrom)
   * isValidShortNumber(number)
   * isValidShortNumberForRegion(number, regionDialingFrom)
