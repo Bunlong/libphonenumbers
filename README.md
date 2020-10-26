@@ -12,7 +12,7 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
 
 ## 🎁 Features
 
-libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>TypeScript</strong>.
+> libphonenumbers is compatible with both <strong>JavaScript</strong> and <strong>TypeScript</strong>.
 
 * PhoneNumberUtil
   * [format(number, numberFormat)](#-formatnumber-numberformat) is used to formats a phone number in the specified format using default rules.
