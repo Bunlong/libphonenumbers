@@ -49,7 +49,7 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
 * PhoneNumber
   * [getCountryCode()](#-getcountrycode) is used to gets the value of the country_code field.
   * [getCountryCodeSource()](#-getcountrycodesource) is used to gets the value of the country_code_source field.
-  * [getExtension()](#-getextension)
+  * [getExtension()](#-getextension) is used to gets the value of the extension field.
   * [getItalianLeadingZero()](#-getitalianleadingzero)
   * [getNationalNumber()](#-getnationalnumber)
   * [getRawInput()](#-getrawinput)
