@@ -51,7 +51,7 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
   * [getCountryCodeSource()](#-getcountrycodesource) is used to gets the value of the country_code_source field.
   * [getExtension()](#-getextension) is used to gets the value of the extension field.
   * [getItalianLeadingZero()](#-getitalianleadingzero) is used to gets the value of the italian_leading_zero field.
-  * [getNationalNumber()](#-getnationalnumber)
+  * [getNationalNumber()](#-getnationalnumber) is used to gets the value of the national_number field.
   * [getRawInput()](#-getrawinput)
 
 * CountryCodeSource ( Enums in order to compare them with the output of [getCountryCodeSource()](#-getcountrycodesource) )
