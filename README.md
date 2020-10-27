@@ -47,12 +47,12 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
   * UNKNOWN ( value is -1 )
 
 * PhoneNumber
-  * [getCountryCode()](#-getcountrycode) is used to gets the value of the country_code field.
-  * [getCountryCodeSource()](#-getcountrycodesource) is used to gets the value of the country_code_source field.
-  * [getExtension()](#-getextension) is used to gets the value of the extension field.
-  * [getItalianLeadingZero()](#-getitalianleadingzero) is used to gets the value of the italian_leading_zero field.
-  * [getNationalNumber()](#-getnationalnumber) is used to gets the value of the national_number field.
-  * [getRawInput()](#-getrawinput) is used to gets the value of the raw_input field.
+  * [getCountryCode()](#-getcountrycode) is used to gets the value of the country code.
+  * [getCountryCodeSource()](#-getcountrycodesource) is used to gets the value of the country code source.
+  * [getExtension()](#-getextension) is used to gets the value of the extension.
+  * [getItalianLeadingZero()](#-getitalianleadingzero) is used to gets the value of the italian leading zero.
+  * [getNationalNumber()](#-getnationalnumber) is used to gets the value of the national number.
+  * [getRawInput()](#-getrawinput) is used to gets the value of the raw input.
 
 * CountryCodeSource ( Enums in order to compare them with the output of [getCountryCodeSource()](#-getcountrycodesource) )
   * UNSPECIFIED ( value is 0 )
