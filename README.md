@@ -32,7 +32,7 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
   * NATIONAL ( value is 2 )
   * RFC3966: ( value is 3 )
 
-* PhoneNumberType ( Enums is used to compare with the output of [getNumberType(number)](#-getnumbertypenumber ):
+* PhoneNumberType ( Enums is used to compare with the output of [getNumberType(number)](#-getnumbertypenumber) )
   * FIXED_LINE ( value is 0 )
   * MOBILE ( value is 1 )
   * FIXED_LINE_OR_MOBILE ( value is 2 )
