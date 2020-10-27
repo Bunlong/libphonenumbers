@@ -47,7 +47,7 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
   * UNKNOWN ( value is -1 )
 
 * PhoneNumber
-  * [getCountryCode()](#-getcountrycode)
+  * [getCountryCode()](#-getcountrycode) is used to gets the value of the country_code field.
   * [getCountryCodeSource()](#-getcountrycodesource)
   * [getExtension()](#-getextension)
   * [getItalianLeadingZero()](#-getitalianleadingzero)
