@@ -187,15 +187,15 @@ Using Standard JavaScript:
 const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 
 // Parse number with US country code and keep raw input
-const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Format number in the out-of-country format from US
 console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'US'));
-// => 1 (300) 577-8989
+// 1 (202) 456-2121
 
 // Format number in the out-of-country format from JP
 console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'JP'));
-// => 010 1 300-577-8989
+// 010 1 202-456-2121
 ```
 
 Using ECMAScript (ES):
@@ -207,15 +207,15 @@ import libphonenumbers from 'libphonenumbers';
 const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
 // Parse number with US country code and keep raw input
-const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Format number in the out-of-country format from US
 console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'US'));
-// => 1 (300) 577-8989
+// 1 (202) 456-2121
 
 // Format number in the out-of-country format from JP
 console.log(phoneUtil.formatOutOfCountryCallingNumber(number, 'JP'));
-// => 010 1 300-577-8989
+// 010 1 202-456-2121
 ```
 
 #### 📦 getNumberType(number)
