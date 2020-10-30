@@ -155,11 +155,11 @@ Using Standard JavaScript:
 const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 
 // Parse number with US country code and keep raw input
-const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Format number in the original format
 console.log(phoneUtil.formatInOriginalFormat(number, 'US'));
-// => (300) 577-8989
+// => (202) 456-2121
 ```
 
 Using ECMAScript (ES):
@@ -171,11 +171,11 @@ import libphonenumbers from 'libphonenumbers';
 const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
 // Parse number with US country code and keep raw input
-const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Format number in the original format
 console.log(phoneUtil.formatInOriginalFormat(number, 'US'));
-// => (300) 577-8989
+// (202) 456-2121
 ```
 
 #### 📦 formatOutOfCountryCallingNumber(number, regionCallingFrom)
