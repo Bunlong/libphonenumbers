@@ -26,25 +26,25 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
   * [parseAndKeepRawInput(numberToParse, defaultRegion)](#-parseandkeeprawinputnumbertoparse-defaultregion) is used to parses a string and returns it in prototype buffer format while keeping the raw input value.
   * [parse(numberToParse, defaultRegion)](#-parsenumbertoparse-defaultregion) is used to parses a string and returns it in proto buffer format.
 
-* PhoneNumberFormat ( Enums is used to pass to [format(number, numberFormat)](#-formatnumber-numberformat) )
-  * E164 ( value is 0 )
-  * INTERNATIONAL ( value is 1 )
-  * NATIONAL ( value is 2 )
-  * RFC3966 ( value is 3 )
+* PhoneNumberFormat ( The following enums is used to pass to [format(number, numberFormat)](#-formatnumber-numberformat) )
+  * E164 (value is 0)
+  * INTERNATIONAL (value is 1)
+  * NATIONAL (value is 2)
+  * RFC3966 (value is 3)
 
-* PhoneNumberType ( Enums is used to compare with the output of [getNumberType(number)](#-getnumbertypenumber) )
-  * FIXED_LINE ( value is 0 )
-  * MOBILE ( value is 1 )
-  * FIXED_LINE_OR_MOBILE ( value is 2 )
-  * TOLL_FREE ( value is 3 )
-  * PREMIUM_RATE ( value is 4 )
-  * SHARED_COST ( value is 5 )
-  * VOIP ( value is 6 )
-  * PERSONAL_NUMBER ( value is 7 )
-  * PAGER ( value is 8 )
-  * UAN ( value is 9 )
-  * VOICEMAIL ( value is 10 )
-  * UNKNOWN ( value is -1 )
+* PhoneNumberType ( The following enums is used to compare with the output of [getNumberType(number)](#-getnumbertypenumber) )
+  * FIXED_LINE (value is 0)
+  * MOBILE (value is 1)
+  * FIXED_LINE_OR_MOBILE (value is 2)
+  * TOLL_FREE (value is 3)
+  * PREMIUM_RATE (value is 4)
+  * SHARED_COST (value is 5)
+  * VOIP (value is 6)
+  * PERSONAL_NUMBER (value is 7)
+  * PAGER (value is 8)
+  * UAN (value is 9)
+  * VOICEMAIL (value is 10)
+  * UNKNOWN (value is -1)
 
 * PhoneNumber
   * [getCountryCode()](#-getcountrycode) is used to gets the value of the country code.
@@ -54,7 +54,7 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
   * [getNationalNumber()](#-getnationalnumber) is used to gets the value of the national number.
   * [getRawInput()](#-getrawinput) is used to gets the value of the raw input.
 
-* CountryCodeSource ( Enums in order to compare them with the output of [getCountryCodeSource()](#-getcountrycodesource) )
+* CountryCodeSource ( The following enums is used to compare with the output of [getCountryCodeSource()](#-getcountrycodesource) )
   * UNSPECIFIED ( value is 0 )
   * FROM_NUMBER_WITH_PLUS_SIGN ( value is 1 )
   * FROM_NUMBER_WITH_IDD ( value is 5 )
@@ -712,7 +712,7 @@ console.log(shortInfo.isPossibleShortNumberForRegion(phoneUtil.parse('123456', '
 // => true
 ```
 
-## 🦄 Credit and Inspiration
+## 🦄 Credits and Inspiration
 
 Inspired by [Google's libphonenumber](https://github.com/google/libphonenumber).
 
