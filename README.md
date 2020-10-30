@@ -117,7 +117,7 @@ console.log(phoneUtil.format(number, PNF.NATIONAL));
 
 // Format number in the international format
 console.log(phoneUtil.format(number, PNF.INTERNATIONAL));
-// => +1 300-577-8989
+// +1 202-456-2121
 ```
 
 Using ECMAScript (ES):
@@ -143,7 +143,7 @@ console.log(phoneUtil.format(number, PNF.NATIONAL));
 
 // Format number in the international format
 console.log(phoneUtil.format(number, PNF.INTERNATIONAL));
-// => +1 300-577-8989
+// +1 202-456-2121
 ```
 
 #### 📦 formatInOriginalFormat(number, regionCallingFrom)
