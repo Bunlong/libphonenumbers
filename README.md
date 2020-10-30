@@ -105,11 +105,11 @@ const PNF = require('libphonenumbers').PhoneNumberFormat;
 const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance(); 
 
 // Parse number with US country code and keep raw input
-const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Format number in the RFC3966 format
 console.log(phoneUtil.format(number, PNF.RFC3966));
-// => tel:+1-300-577-8989
+// => tel:+1-202-456-2121
 
 // Format number in the national format
 console.log(phoneUtil.format(number, PNF.NATIONAL));
@@ -131,11 +131,11 @@ const PNF = libphonenumbers.PhoneNumberFormat;
 const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
 // Parse number with US country code and keep raw input
-const number = phoneUtil.parseAndKeepRawInput('300-577-8989', 'US');
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Format number in the RFC3966 format
 console.log(phoneUtil.format(number, PNF.RFC3966));
-// => tel:+1-300-577-8989
+// => tel:+1-202-456-2121
 
 // Format number in the national format
 console.log(phoneUtil.format(number, PNF.NATIONAL));
