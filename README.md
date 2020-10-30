@@ -27,8 +27,8 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
   * [parse(numberToParse, defaultRegion)](#-parsenumbertoparse-defaultregion) is used to parses a string and returns it in proto buffer format.
 
 * AsYouTypeFormatter
-  * inputDigit(digit) is used to formats a phone number on-the-fly as each digit is entered.
-  * clear() is used to clears the internal state of the formatter, so it can be reused.
+  * [inputDigit(digit)](#-inputdigitdigit) is used to formats a phone number on-the-fly as each digit is entered.
+  * [clear()](#-inputdigitdigit) is used to clears the internal state of the formatter, so it can be reused.
 
 * PhoneNumberFormat ( The following enums is used to pass to [format(number, numberFormat)](#-formatnumber-numberformat) )
   * E164 (value is 0)
