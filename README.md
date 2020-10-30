@@ -231,7 +231,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get type of phone number
 console.log(phoneUtil.getNumberType(number));
-// => 2 // FIXED_LINE_OR_MOBILE
+// 2 // FIXED_LINE_OR_MOBILE
 ```
 
 Using ECMAScript (ES):
@@ -247,7 +247,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get type of phone number
 console.log(phoneUtil.getNumberType(number));
-// => 2 // FIXED_LINE_OR_MOBILE
+// 2 // FIXED_LINE_OR_MOBILE
 ```
 
 #### 📦 getRegionCodeForNumber(number)
@@ -263,7 +263,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get region code of number
 console.log(phoneUtil.getRegionCodeForNumber(number));
-// => US
+// US
 ```
 
 Using ECMAScript (ES):
@@ -279,7 +279,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get region code of number
 console.log(phoneUtil.getRegionCodeForNumber(number));
-// => US
+// US
 ```
 
 #### 📦 isPossibleNumber(number)
@@ -295,7 +295,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Check is possible number
 console.log(phoneUtil.isPossibleNumber(number));
-// => true
+// true
 ```
 
 Using ECMAScript (ES):
@@ -311,7 +311,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Check is possible number
 console.log(phoneUtil.isPossibleNumber(number));
-// => true
+// true
 ```
 
 #### 📦 isValidNumber(number)
@@ -327,7 +327,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get is valid number
 console.log(phoneUtil.isValidNumber(number));
-// => true
+// true
 ```
 
 Using ECMAScript (ES):
@@ -343,7 +343,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get is valid number
 console.log(phoneUtil.isValidNumber(number));
-// => true
+// true
 ```
 
 #### 📦 isValidNumberForRegion(number, regionCode)
@@ -359,7 +359,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Check number of a region is valid
 console.log(phoneUtil.isValidNumberForRegion(number, 'US'));
-// => true
+// true
 ```
 
 Using ECMAScript (ES):
@@ -375,7 +375,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Check number of a region is valid
 console.log(phoneUtil.isValidNumberForRegion(number, 'US'));
-// => true
+// true
 ```
 
 #### 📦 parseAndKeepRawInput(numberToParse, defaultRegion)
@@ -441,7 +441,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's country code
 console.log(number.getCountryCode());
-// => 1
+// 1
 ```
 
 Using ECMAScript (ES):
@@ -457,7 +457,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's country code
 console.log(number.getCountryCode());
-// => 1
+// 1
 ```
 
 #### 📦 getCountryCodeSource()
@@ -473,7 +473,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's extension
 console.log(number.getCountryCodeSource());
-// => FROM_DEFAULT_COUNTRY
+// FROM_DEFAULT_COUNTRY
 ```
 
 Using ECMAScript (ES):
@@ -489,7 +489,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Print the phone's extension
 console.log(number.getCountryCodeSource());
-// => FROM_DEFAULT_COUNTRY
+// FROM_DEFAULT_COUNTRY
 ```
 
 #### 📦 getExtension()
@@ -503,9 +503,9 @@ const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 // Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
-// Print the phone's extension.
+// Print the phone's extension
 console.log(number.getExtension());
-// => null
+// null
 ```
 
 Using ECMAScript (ES):
@@ -519,7 +519,7 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 // Parse number with US country code and keep raw input
 const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
-// Print the phone's extension.
+// Print the phone's extension
 console.log(number.getExtension());
 // => null
 ```
@@ -537,7 +537,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get phone's italian leading zero
 console.log(number.getItalianLeadingZero());
-// => null
+// null
 ```
 
 Using ECMAScript (ES):
@@ -553,7 +553,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get phone's italian leading zero
 console.log(number.getItalianLeadingZero());
-// => null
+// null
 ```
 
 #### 📦 getNationalNumber()
@@ -569,7 +569,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's national number
 console.log(number.getNationalNumber());
-// => 2024562121
+// 2024562121
 ```
 
 Using ECMAScript (ES):
@@ -585,7 +585,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's national number
 console.log(number.getNationalNumber());
-// => 2024562121
+// 2024562121
 ```
 
 #### 📦 getRawInput()
@@ -601,7 +601,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's raw input
 console.log(number.getRawInput());
-// => 202-456-2121
+// 202-456-2121
 ```
 
 Using ECMAScript (ES):
@@ -617,7 +617,7 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Get the phone's raw input
 console.log(number.getRawInput());
-// => 202-456-2121
+// 202-456-2121
 ```
 
 ### 🎀 ShortNumberInfo
@@ -632,7 +632,7 @@ const shortInfo = require('libphonenumbers').ShortNumberInfo.getInstance();
 
 // Check 911 is emergency number in US
 console.log(shortInfo.connectsToEmergencyNumber('911', 'US'));
-// => true
+// true
 ```
 
 Using ECMAScript (ES):
@@ -645,7 +645,7 @@ const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
 
 // Check 911 is emergency number in US
 console.log(shortInfo.connectsToEmergencyNumber('911', 'US'));
-// => true
+// true
 ```
 
 #### 📦 isPossibleShortNumber(number)
@@ -661,7 +661,7 @@ const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 
 // Check 123456 is possible short number in FR
 console.log(shortInfo.isPossibleShortNumber(phoneUtil.parse('123456', 'FR')));
-// => true
+// true
 ```
 
 Using ECMAScript (ES):
@@ -677,7 +677,7 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
 // Check 123456 is possible short number in FR
 console.log(shortInfo.isPossibleShortNumber(phoneUtil.parse('123456', 'FR')));
-// => true
+// true
 ```
 
 #### 📦 isPossibleShortNumberForRegion(number, regionDialingFrom)
@@ -693,7 +693,7 @@ const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
 
 // Check 123456 is possible short number for region in FR
 console.log(shortInfo.isPossibleShortNumberForRegion(phoneUtil.parse('123456', 'FR'), 'FR'));
-// => true
+// true
 ```
 
 Using ECMAScript (ES):
@@ -709,7 +709,7 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
 // Check 123456 is possible short number for region in FR
 console.log(shortInfo.isPossibleShortNumberForRegion(phoneUtil.parse('123456', 'FR'), 'FR'));
-// => true
+// true
 ```
 
 ## 🦄 Credits and Inspiration
