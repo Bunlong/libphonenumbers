@@ -70,7 +70,7 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
   * [isPossibleShortNumber(number)](#-ispossibleshortnumbernumber) is used to checks whether a short number is a possible number.
   * [isPossibleShortNumberForRegion(number, regionDialingFrom)](#-ispossibleshortnumberforregionnumber-regiondialingfrom) is used to checks whether a short number is a possible number when dialed from the given region.
   * [isValidShortNumber(number)](#-isvalidshortnumbernumber) is used to checks whether a short number is a valid number.
-  * [isValidShortNumberForRegion(number, regionDialingFrom)](-isvalidshortnumberforregionnumber-regiondialingfrom) is used to checks whether a short number matches a valid pattern in a region.
+  * [isValidShortNumberForRegion(number, regionDialingFrom)](#-isvalidshortnumberforregionnumber-regiondialingfrom) is used to checks whether a short number matches a valid pattern in a region.
 
 ## ❌ Missing Features:
 
