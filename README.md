@@ -750,7 +750,7 @@ console.log(shortInfo.isValidShortNumber(number));
 // false
 ```
 
-#### isValidShortNumberForRegion(number, regionDialingFrom)
+#### 📦 isValidShortNumberForRegion(number, regionDialingFrom)
 
 Using Standard JavaScript:
 
@@ -784,7 +784,7 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Check 202-456-2121 is valid short number for US region
-console.log(shortInfo.isValidShortNumberForRegion(number, 'US));
+console.log(shortInfo.isValidShortNumberForRegion(number, 'US'));
 // false
 ```
 
