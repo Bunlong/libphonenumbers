@@ -55,11 +55,11 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
   * [getRawInput()](#-getrawinput) is used to gets the value of the raw input.
 
 * CountryCodeSource ( The following enums is used to compare with the output of [getCountryCodeSource()](#-getcountrycodesource) )
-  * UNSPECIFIED ( value is 0 )
-  * FROM_NUMBER_WITH_PLUS_SIGN ( value is 1 )
-  * FROM_NUMBER_WITH_IDD ( value is 5 )
-  * FROM_NUMBER_WITHOUT_PLUS_SIGN ( value is 10 )
-  * FROM_DEFAULT_COUNTRY ( value is 20 )
+  * UNSPECIFIED (value is 0)
+  * FROM_NUMBER_WITH_PLUS_SIGN (value is 1)
+  * FROM_NUMBER_WITH_IDD (value is 5)
+  * FROM_NUMBER_WITHOUT_PLUS_SIGN (value is 10)
+  * FROM_DEFAULT_COUNTRY (value is 20)
 
 * ShortNumberInfo
   * [connectsToEmergencyNumber(number, regionCode)](#-connectstoemergencynumbernumber-regioncode) is used to checks whether the short number can be used to connect to emergency services when dialed from the given region.
