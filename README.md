@@ -750,6 +750,44 @@ console.log(shortInfo.isValidShortNumber(number));
 // false
 ```
 
+#### isValidShortNumberForRegion(number, regionDialingFrom)
+
+Using Standard JavaScript:
+
+```js
+// Get an instance of ShortNumberInfo
+const shortInfo = require('libphonenumbers').ShortNumberInfo.getInstance();
+
+// Get an instance of PhoneNumberUtil
+const phoneUtil = require('libphonenumbers').PhoneNumberUtil.getInstance();
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
+
+// Check 202-456-2121 is valid short number for US region
+console.log(shortInfo.isValidShortNumberForRegion(number, 'US'));
+// false
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+// Get an instance of ShortNumberInfo
+const shortInfo = libphonenumbers.ShortNumberInfo.getInstance();
+
+// Create an instance of PhoneNumberUtil
+const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
+
+// Parse number with US country code and keep raw input
+const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
+
+// Check 202-456-2121 is valid short number for US region
+console.log(shortInfo.isValidShortNumberForRegion(number, 'US));
+// false
+```
+
 ## 🦄 Credits and Inspiration
 
 Inspired by [Google's libphonenumber](https://github.com/google/libphonenumber).
