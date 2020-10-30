@@ -109,11 +109,11 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Format number in the RFC3966 format
 console.log(phoneUtil.format(number, PNF.RFC3966));
-// => tel:+1-202-456-2121
+// tel:+1-202-456-2121
 
 // Format number in the national format
 console.log(phoneUtil.format(number, PNF.NATIONAL));
-// => (300) 577-8989
+// (202) 456-2121
 
 // Format number in the international format
 console.log(phoneUtil.format(number, PNF.INTERNATIONAL));
@@ -135,11 +135,11 @@ const number = phoneUtil.parseAndKeepRawInput('202-456-2121', 'US');
 
 // Format number in the RFC3966 format
 console.log(phoneUtil.format(number, PNF.RFC3966));
-// => tel:+1-202-456-2121
+// tel:+1-202-456-2121
 
 // Format number in the national format
 console.log(phoneUtil.format(number, PNF.NATIONAL));
-// => (300) 577-8989
+// (202) 456-2121
 
 // Format number in the international format
 console.log(phoneUtil.format(number, PNF.INTERNATIONAL));
