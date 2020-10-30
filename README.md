@@ -26,6 +26,10 @@ libphonenumbers – JavaScript port of Google's libphonenumber library for parsi
   * [parseAndKeepRawInput(numberToParse, defaultRegion)](#-parseandkeeprawinputnumbertoparse-defaultregion) is used to parses a string and returns it in prototype buffer format while keeping the raw input value.
   * [parse(numberToParse, defaultRegion)](#-parsenumbertoparse-defaultregion) is used to parses a string and returns it in proto buffer format.
 
+* AsYouTypeFormatter
+  * inputDigit(digit) is used to formats a phone number on-the-fly as each digit is entered.
+  * clear() is used to clears the internal state of the formatter, so it can be reused.
+
 * PhoneNumberFormat ( The following enums is used to pass to [format(number, numberFormat)](#-formatnumber-numberformat) )
   * E164 (value is 0)
   * INTERNATIONAL (value is 1)
@@ -424,6 +428,62 @@ const phoneUtil = libphonenumbers.PhoneNumberUtil.getInstance();
 
 // Get proto buffer format
 console.log(phoneUtil.parse('123456', 'US'));
+```
+
+### 🎀 AsYouTypeFormatter
+
+#### 📦 inputDigit(digit)
+
+Using Standard JavaScript:
+
+```js
+const AsYouTypeFormatter = require('libphonenumbers').AsYouTypeFormatter;
+
+// Create an instance object of AsYouTypeFormatter
+const formatter = new AsYouTypeFormatter('US');
+
+console.log(formatter.inputDigit('2')); // => 2
+console.log(formatter.inputDigit('0')); // => 20
+console.log(formatter.inputDigit('2')); // => 202
+console.log(formatter.inputDigit('-')); // => 202-
+console.log(formatter.inputDigit('4')); // => 202-4
+console.log(formatter.inputDigit('5')); // => 202-45
+console.log(formatter.inputDigit('6')); // => 202-456
+console.log(formatter.inputDigit('-')); // => 202-456-
+console.log(formatter.inputDigit('2')); // => 202-456-2
+console.log(formatter.inputDigit('1')); // => 202-456-21
+console.log(formatter.inputDigit('2')); // => 202-456-212
+console.log(formatter.inputDigit('1')); // => 202-456-2121
+
+// Clear all input digits from instance
+formatter.clear();
+```
+
+Using ECMAScript (ES):
+
+```js
+import libphonenumbers from 'libphonenumbers';
+
+const AsYouTypeFormatter = libphonenumbers.AsYouTypeFormatter;
+
+// Create an instance object of AsYouTypeFormatter
+const formatter = new AsYouTypeFormatter('US');
+
+console.log(formatter.inputDigit('2')); // 2
+console.log(formatter.inputDigit('0')); // 20
+console.log(formatter.inputDigit('2')); // 202
+console.log(formatter.inputDigit('-')); // 202-
+console.log(formatter.inputDigit('4')); // 202-4
+console.log(formatter.inputDigit('5')); // 202-45
+console.log(formatter.inputDigit('6')); // 202-456
+console.log(formatter.inputDigit('-')); // 202-456-
+console.log(formatter.inputDigit('2')); // 202-456-2
+console.log(formatter.inputDigit('1')); // 202-456-21
+console.log(formatter.inputDigit('2')); // 202-456-212
+console.log(formatter.inputDigit('1')); // 202-456-2121
+
+// Clear all input digits from instance
+formatter.clear();
 ```
 
 ### 🎀 PhoneNumber
